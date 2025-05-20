@@ -109,6 +109,7 @@ export default function Home() {
   const handleNextQuestion = () => {
     if (currentQuestionIndex < questions.length - 1) {
       setCurrentQuestionIndex(currentQuestionIndex + 1)
+      // Make sure we're properly resetting the state
       resetQuestionState()
     } else {
       setQuizCompleted(true)
@@ -120,6 +121,8 @@ export default function Home() {
     setAiResponse("")
     setFeedback(null)
     setIsAnswerSubmitted(false)
+    // Add this line to ensure isLoading is reset
+    setIsLoading(false)
   }
 
   const restartQuiz = () => {
