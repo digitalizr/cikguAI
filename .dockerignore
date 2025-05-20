@@ -1,0 +1,10 @@
+# filepath: c:\Users\Mohan\Documents\Cikgu AI Project 2025\.dockerignore
+.git
+node_modules
+.next
+out
+.env*
+.dockerignore
+Dockerfile
+README.md
+.github
