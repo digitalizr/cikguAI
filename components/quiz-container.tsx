@@ -2,7 +2,8 @@
 
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card"
-import { Loader2 } from "lucide-react"
+import { Loader2, Brain } from "lucide-react"
+import Link from "next/link"
 
 interface QuizContainerProps {
   currentQuestion: any
@@ -45,13 +46,23 @@ export default function QuizContainer({
     return (
       <Card className="w-full max-w-3xl shadow-lg">
         <CardHeader className="text-center">
+          <div className="flex justify-center mb-4">
+            <Brain className="h-12 w-12 text-blue-600" />
+          </div>
           <h1 className="text-2xl font-bold text-green-600">Quiz Completed!</h1>
         </CardHeader>
         <CardContent className="text-center">
-          <p className="text-lg mb-6">You have completed all the questions.</p>
-          <Button onClick={onRestartQuiz} className="px-8">
-            Start Over
-          </Button>
+          <p className="text-lg mb-6">Congratulations! You have completed all the questions.</p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button onClick={onRestartQuiz} className="px-8">
+              Start Over
+            </Button>
+            <Link href="/">
+              <Button variant="outline" className="px-8">
+                Back to Home
+              </Button>
+            </Link>
+          </div>
         </CardContent>
       </Card>
     )

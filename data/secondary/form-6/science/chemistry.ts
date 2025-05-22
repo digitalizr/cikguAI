@@ -1,0 +1,133 @@
+import type { QuizData } from "@/types/quiz"
+
+export const chemistryForm6QuizData: QuizData = {
+  educationLevel: "Form 6",
+  subject: "Chemistry",
+  questions: [
+    {
+      id: 1,
+      subject: "Chemistry",
+      question: "Which of the following pairs of Period 2 elements has the greatest difference in boiling point?",
+      options: {
+        a: "Lithium and Neon",
+        b: "Carbon and Nitrogen",
+        c: "Beryllium and Boron",
+        d: "Lithium and Carbon",
+      },
+      correctAnswer: "b",
+    },
+    {
+      id: 2,
+      subject: "Chemistry",
+      question: "Going across Period 3 (from sodium to chlorine) in the Periodic Table:",
+      options: {
+        a: "The electronegativity of elements decreases",
+        b: "The ionization energy of elements decreases",
+        c: "The standard electrode potential of elements increases",
+        d: "The strength of elements as oxidizing agents increases",
+      },
+      correctAnswer: "c",
+    },
+    {
+      id: 3,
+      subject: "Chemistry",
+      question: "Which of the following Period 3 elements forms an oxide with the highest oxidation state?",
+      options: {
+        a: "Aluminium",
+        b: "Silicon",
+        c: "Phosphorus",
+        d: "Sulphur",
+      },
+      correctAnswer: "d",
+    },
+    {
+      id: 4,
+      subject: "Chemistry",
+      question:
+        "An oxide J has a boiling point of 2030°C. It dissolves in sodium hydroxide solution but not in water or acid. What is oxide J?",
+      options: {
+        a: "MgO",
+        b: "Al₂O₃",
+        c: "SiO₂",
+        d: "P₄O₁₀",
+      },
+      correctAnswer: "c",
+    },
+    {
+      id: 5,
+      subject: "Chemistry",
+      question:
+        "Sodium reacts with oxygen to form sodium peroxide. What is the mass of sodium peroxide formed when 0.50g of sodium is completely oxidised? (Relative atomic masses: Na = 23.0, O = 16.0)",
+      options: {
+        a: "0.67g",
+        b: "0.85g",
+        c: "1.4g",
+        d: "1.7g",
+      },
+      correctAnswer: "b",
+    },
+    {
+      id: 6,
+      subject: "Chemistry",
+      question: "Which one of the following oxides has a molecular structure rather than a giant structure?",
+      options: {
+        a: "Na₂O",
+        b: "MgO",
+        c: "Al₂O₃",
+        d: "SiO₂",
+      },
+      correctAnswer: "d",
+    },
+    {
+      id: 7,
+      subject: "Chemistry",
+      question:
+        "A mixture of the oxides of two Period 3 elements is dissolved in water. The solution is approximately neutral. What could be the constituents of the mixture?",
+      options: {
+        a: "Al₂O₃ and MgO",
+        b: "Na₂O and MgO",
+        c: "Na₂O and P₄O₁₀",
+        d: "SO₃ and P₄O₁₀",
+      },
+      correctAnswer: "c",
+    },
+    {
+      id: 8,
+      subject: "Chemistry",
+      question:
+        "An oxide of X (a Period 3 element) dissolves in water forming a solution Y, which readily absorbs carbon dioxide gas. X can form Y because X:",
+      options: {
+        a: "Is very reactive with water",
+        b: "Has very negative standard reduction potential",
+        c: "Forms a cation with a high charge density",
+        d: "Has many valence electrons",
+      },
+      correctAnswer: "b",
+    },
+    {
+      id: 9,
+      subject: "Chemistry",
+      question: "Which of the following oxides does not dissolve in water?",
+      options: {
+        a: "SO₂",
+        b: "Cl₂O₇",
+        c: "SiO₂",
+        d: "P₄O₁₀",
+      },
+      correctAnswer: "c",
+    },
+    {
+      id: 10,
+      subject: "Chemistry",
+      question:
+        "Which of the following electronic configurations is most likely to react with steam rather than water?",
+      options: {
+        a: "1s² 2s² 2p⁶ 3s¹",
+        b: "1s² 2s² 2p⁶ 3s² 3p¹",
+        c: "1s² 2s² 2p⁶ 3s²",
+        d: "1s² 2s² 2p⁶ 3s² 3p²",
+      },
+      correctAnswer: "c",
+    },
+  ],
+}
